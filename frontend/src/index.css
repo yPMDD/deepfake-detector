@@ -1,0 +1,5 @@
+/* Default styles removed to allow App.css to control the layout */
+
+#root {
+  display: contents;
+}

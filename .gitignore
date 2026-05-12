@@ -1,1 +1,10 @@
 data
+*.tex
+*.pdf
+*.png
+Stories_Instagram.mp4
+.env
+toc.txt
+architecture.mmd
+pipeline.mmd
+images/
