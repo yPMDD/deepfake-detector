@@ -1,10 +1,37 @@
-data
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+*.egg-info/
+
+# ===== Data & Models (large files) =====
+data/
+models/checkpoints/
+
+# ===== Environment =====
+.env
+.env.*
+
+# ===== Frontend =====
+frontend/node_modules/
+
+# ===== IDE =====
+.vscode/
+.idea/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Project-specific (reports, diagrams, media) =====
 *.tex
 *.pdf
 *.png
+images/
 Stories_Instagram.mp4
-.env
 toc.txt
 architecture.mmd
 pipeline.mmd
-images/
+rapport_deepfake.tex
+rapport_projet_dl.pdf
